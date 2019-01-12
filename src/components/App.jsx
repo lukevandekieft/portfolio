@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import siteQuince from'../assets/images/half_blood_quince.png';
+import siteGeek from'../assets/images/thinkgeek_clone.png';
+import sitePeru from'../assets/images/travel_peru.png';
 
 //styles
 import './App.scss';
@@ -9,14 +12,8 @@ class App extends Component {
     return (
       <div>
       Luke's Site Portfolio
-        <a href="https://www.halfbloodquince.com">Half-Blood quince</a>
-        <a href="https://travel-peru.firebaseapp.com">Travel Peru</a>
-        <a href="https://thinkgeek-clone.firebaseapp.com">ThinkGeek Site Clone</a>
-        <a href="https://crestfallen-game.firebaseapp.com">Crestfallen</a>
-        <a href="https://travel-peru.firebaseapp.com">Travel Peru</a>
-        <body class="is-preload">
-
-			<div id="page-wrapper">
+      <body class="is-preload">
+			   <div id="page-wrapper">
 
 					<header id="header" class="alt">
 						<h1><a href="index.html">Solid State</a></h1>
@@ -51,41 +48,41 @@ class App extends Component {
 
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<a href="https://www.halfbloodquince.com" class="image"><img src={siteQuince} alt="Half-Blood Quince Site" /></a>
 									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Half-Blood Quince</h2>
+										<p>Eat it!</p>
+										<a href="https://www.halfbloodquince.com" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
 
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="https://thinkgeek-clone.firebaseapp.com" class="image"><img src={siteGeek} alt="ThinkGeek Clone Site" /></a>
 									<div class="content">
-										<h2 class="major">Tempus adipiscing</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">ThinkGeek Site Clone</h2>
+										<p>Look how good this is!</p>
+										<a href="https://thinkgeek-clone.firebaseapp.com" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
 
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="https://travel-peru.firebaseapp.com" class="image"><img src={sitePeru} alt="Travel Peru Site" /></a>
 									<div class="content">
-										<h2 class="major">Nullam dignissim</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Travel Peru</h2>
+										<p>Work in Practice</p>
+										<a href="https://travel-peru.firebaseapp.com" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
 
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
-									<h2 class="major">Vitae phasellus</h2>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<h2 class="major">Crestfallen - Keep?</h2>
+									<p>Don't forget about this link: <a href="https://crestfallen-game.firebaseapp.com">Crestfallen</a></p>
 									<section class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
