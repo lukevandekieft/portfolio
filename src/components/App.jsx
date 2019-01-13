@@ -77,7 +77,13 @@ class App extends Component {
 				<section id="footer">
 					<div className="inner">
 						<h2 className="major">Get in touch</h2>
-						<p>--PUT LOGOS HERE</p>
+
+            <ul class="icons">
+  						<li><a href="mailto:vandekie@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+  						<li><a href="https://www.linkedin.com/in/lukevandekieft" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+  						<li><a href="https://github.com/lukevandekieft" class="icon fa-github"><span class="label">Github</span></a></li>
+  					</ul>
+
 						<ul className="copyright">
 							<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
