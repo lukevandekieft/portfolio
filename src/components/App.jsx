@@ -3,6 +3,7 @@ import siteQuince from'../assets/images/half_blood_quince.png';
 import siteGeek from'../assets/images/thinkgeek_clone.png';
 import sitePeru from'../assets/images/travel_peru.png';
 import siteCrestfallen from'../assets/images/crestfallen.png';
+import siteGoblin from'../assets/images/goblin_quest3.png';
 
 //styles
 import './App.scss';
@@ -28,8 +29,9 @@ class App extends Component {
 							<div className="inner">
 								<a href="https://www.halfbloodquince.com" className="image"><img src={siteQuince} alt="Half-Blood Quince Site" /></a>
 								<div className="content">
-									<h2 className="major">Half-Blood Quince</h2>
-									<p>Eat it!</p>
+									<h2 className="major">The Half-Blood Quince</h2>
+									<p>A virtual cookbook for saving, uploading, and editing recipes. In a market saturated with recipe apps this one seeks to maximize customization: add any ingredients, notes, and directions you'd like without content limitations or ads!</p>
+                  <p>Built with: React, Redux, Firebase, webpack, Sass</p>
 									<a href="https://www.halfbloodquince.com" className="special">Visit Page</a>
 								</div>
 							</div>
@@ -40,7 +42,8 @@ class App extends Component {
 								<a href="https://thinkgeek-clone.firebaseapp.com" className="image"><img src={siteGeek} alt="ThinkGeek Clone Site" /></a>
 								<div className="content">
 									<h2 className="major">ThinkGeek Site Clone</h2>
-									<p>Look how good this is!</p>
+									<p>A site clone of the novelty online store ThinkGeek built with Angular. All links lead back to the full site in case anything catches your fancy.</p>
+                  <p>Built with: Angular, JavaScript, webpack, Sass</p>
 									<a href="https://thinkgeek-clone.firebaseapp.com" className="special">Visit Page</a>
 								</div>
 							</div>
@@ -48,22 +51,23 @@ class App extends Component {
 
 						<section id="three" className="wrapper spotlight style3">
 							<div className="inner">
-								<a href="https://travel-peru.firebaseapp.com" className="image"><img src={sitePeru} alt="Travel Peru Site" /></a>
-								<div className="content">
-									<h2 className="major">Travel Peru</h2>
-									<p>Work in Practice</p>
-									<a href="https://travel-peru.firebaseapp.com" className="special">Visit Page</a>
-								</div>
+                <a href="https://lukevandekieft.github.io/borf-quest" className="image"><img src={siteGoblin} alt="Gobline Quest Game Site" /></a>
+                <div className="content">
+                  <h2 className="major">Goblin Quest - Rise of Borf</h2>
+                  <p>A text-based RPG where the hero embarks to save their long-lost love from goblin king Borf. Do you have what it takes to face him down?</p>
+                  <p>Built with: JavaScript, jQuery, Sass, HTML</p>
+                  <a href="https://lukevandekieft.github.io/borf-quest" className="special">Visit Page</a>
+                </div>
 							</div>
 						</section>
 
 						<section id="four" className="wrapper alt spotlight style5">
 							<div className="inner">
-                <a href="https://crestfallen-game.firebaseapp.com" className="image"><img src={siteCrestfallen} alt="Crestfallen Game Site" /></a>
+                <a href="https://travel-peru.firebaseapp.com" className="image"><img src={sitePeru} alt="Travel Peru Site" /></a>
                 <div className="content">
-                  <h2 className="major">Crestfallen - Keep?</h2>
-                  <p>Work in Practice</p>
-                  <a href="https://crestfallen-game.firebaseapp.com" className="special">Visit Page</a>
+                  <h2 className="major">Travel Peru</h2>
+                  <p>Work in progress - check back soon!</p>
+                  <a href="https://travel-peru.firebaseapp.com" className="special">Visit Page</a>
                 </div>
 							</div>
 						</section>
@@ -73,7 +77,7 @@ class App extends Component {
 				<section id="footer">
 					<div className="inner">
 						<h2 className="major">Get in touch</h2>
-						<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+						<p>--PUT LOGOS HERE</p>
 						<ul className="copyright">
 							<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
