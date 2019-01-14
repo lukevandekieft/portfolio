@@ -19,7 +19,8 @@ class App extends Component {
 					<section id="banner">
 						<div className="inner">
 							<h2>Luke Vandekieft</h2>
-							<p>Front-end Web Developer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; React - Redux - JavaScript - Angular - Sass</p>
+							<p>Front-end Web Developer</p>
+              <p>React - Redux - JavaScript - Angular - Sass</p>
 						</div>
 					</section>
 
@@ -31,7 +32,7 @@ class App extends Component {
 								<div className="content">
 									<h2 className="major">The Half-Blood Quince</h2>
 									<p>A virtual cookbook for saving, uploading, and editing recipes. In a market saturated with recipe apps this one seeks to maximize customization: add any ingredients, notes, and directions you'd like without content limitations or ads!</p>
-                  <p>Built with: React, Redux, Firebase, webpack, Sass</p>
+                  <p>Built with: React, Redux, Firebase, Sass</p>
 									<a href="https://www.halfbloodquince.com" className="special">Visit Page</a>
 								</div>
 							</div>
@@ -75,8 +76,9 @@ class App extends Component {
 				</section>
 
 				<section id="footer">
-					<div className="inner">
-						<h2 className="major">Get in touch</h2>
+					<div className="inner centered">
+						<h2 className="special">Currently available for hire</h2>
+            <p>I'd love to hear from you! You can reach me at:</p>
 
             <ul class="icons">
   						<li><a href="mailto:vandekie@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
