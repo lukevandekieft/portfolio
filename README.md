@@ -46,6 +46,7 @@ Custom React Scripts: (https://www.npmjs.com/package/custom-react-scripts)
 * _CSS_
 * _JSX_
 * _Webpack_
+* _'Solid State' and 'Directive' style templates from HTML5Up.net
 
 ## Support and contact details
 
