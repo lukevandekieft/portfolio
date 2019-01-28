@@ -82,10 +82,10 @@ class App extends Component {
             <p className="footerParagraph">Accountant turned programmer who loves logic puzzles such as board games, RPGs, and components that refuse to render. PNW native who travels when he can and spends his time reading, cooking, and gaming when he can't.</p>
             <p className="footerParagraph">I'd love to hear from you! You can reach me at:</p>
 
-            <ul class="icons">
-  						<li><a href="mailto:vandekie@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-  						<li><a href="https://www.linkedin.com/in/lukevandekieft" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-  						<li><a href="https://github.com/lukevandekieft" class="icon fa-github"><span class="label">Github</span></a></li>
+            <ul className="icons">
+  						<li><a href="mailto:vandekie@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a></li>
+  						<li><a href="https://www.linkedin.com/in/lukevandekieft" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+  						<li><a href="https://github.com/lukevandekieft" className="icon fa-github"><span className="label">Github</span></a></li>
   					</ul>
 
 						<ul className="copyright">
