@@ -4,6 +4,7 @@ import siteGeek from'../assets/images/thinkgeek_clone.png';
 import sitePeru from'../assets/images/travel_peru.png';
 import siteCrestfallen from'../assets/images/crestfallen.png';
 import siteGoblin from'../assets/images/goblin_quest3.png';
+import siteGoblin2 from'../assets/images/borf_house.png';
 
 //styles
 import './App.scss';
@@ -19,7 +20,7 @@ class App extends Component {
 					<section id="banner">
 						<div className="inner">
 							<h2>Luke Vandekieft</h2>
-							<p>Front-end Web Developer</p>
+							<p>Junior Web Developer</p>
               <p>React - Redux - JavaScript - Angular - Sass</p>
 						</div>
 					</section>
@@ -52,7 +53,7 @@ class App extends Component {
 
 						<section id="three" className="wrapper spotlight style3">
 							<div className="inner">
-                <a href="https://lukevandekieft.github.io/borf-quest" className="image"><img src={siteGoblin} alt="Gobline Quest Game Site" /></a>
+                <a href="https://lukevandekieft.github.io/borf-quest" className="image"><img src={siteGoblin2} alt="Gobline Quest Game Site" /></a>
                 <div className="content">
                   <h2 className="major">Goblin Quest - Rise of Borf</h2>
                   <p>A text-based RPG where the hero embarks to save their long-lost love from goblin king Borf. Do you have what it takes to face him down?</p>
@@ -78,7 +79,8 @@ class App extends Component {
 				<section id="footer">
 					<div className="inner centered">
 						<h2 className="special">Currently available for hire</h2>
-            <p>I'd love to hear from you! You can reach me at:</p>
+            <p className="footerParagraph">Accountant turned programmer who loves logic puzzles such as board games, RPGs, and components that refuse to render. PNW native who travels when he can and spends his time reading, cooking, and gaming when he can't.</p>
+            <p className="footerParagraph">I'd love to hear from you! You can reach me at:</p>
 
             <ul class="icons">
   						<li><a href="mailto:vandekie@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
@@ -87,7 +89,7 @@ class App extends Component {
   					</ul>
 
 						<ul className="copyright">
-							<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Luke Vandekieft. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 				</section>
