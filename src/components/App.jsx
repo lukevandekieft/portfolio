@@ -67,9 +67,9 @@ class App extends Component {
 							<div className="inner">
                 <a href="https://travel-peru.firebaseapp.com" className="image"><img src={sitePeru} alt="Travel Peru Site" /></a>
                 <div className="content">
-                  <h2 className="major">Travel Peru</h2>
-                  <p>Work in progress - check back soon!</p>
-                  <a href="https://travel-peru.firebaseapp.com" className="special">Visit Page</a>
+                  <h2 className="major">And More...</h2>
+                  <p>Additional projects include a Peru travel page, React Tamagotchi, and coworking site layout.</p>
+                  <a href="https://github.com/lukevandekieft?tab=repositories" className="special">See Project List</a>
                 </div>
 							</div>
 						</section>
