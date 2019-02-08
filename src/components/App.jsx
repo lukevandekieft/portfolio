@@ -31,7 +31,7 @@ class App extends Component {
 								<a href="https://www.halfbloodquince.com" className="image"><img src={siteQuince} alt="Half-Blood Quince Site" /></a>
 								<div className="content">
 									<h2 className="major">The Half-Blood Quince</h2>
-									<p>A virtual cookbook for saving, uploading, and editing recipes. In a market saturated with recipe apps this one seeks to maximize customization: add any ingredients, notes, and directions you'd like without content limitations or ads!</p>
+									<p>My virtual cookbook for recipe management. In a market saturated with cooking apps this one seeks to maximize customization - add any recipe you like then edit, tweak, and comment away! I can finally store all my recipes in one place and add notes so I don't forget what I did to make the crust come out right. </p>
                   <p>Built with: React, Redux, Firebase, Sass</p>
 									<a href="https://www.halfbloodquince.com" className="special">Visit Page</a>
 								</div>
@@ -43,8 +43,8 @@ class App extends Component {
 								<a href="https://thinkgeek-clone.firebaseapp.com" className="image"><img src={siteGeek} alt="ThinkGeek Clone Site" /></a>
 								<div className="content">
 									<h2 className="major">ThinkGeek Site Clone</h2>
-									<p>A site clone of the novelty online store ThinkGeek built with Angular. All links lead back to the full site in case anything catches your fancy.</p>
-                  <p>Built with: Angular, JavaScript, webpack, Sass</p>
+									<p>A site clone of ThinkGeek, my favorite novelty shop for when you have no idea what to buy someone. I built this out with Angular and connected it to Firebase for content storage. All links are functional in case something catches your fancy.</p>
+                  <p>Built with: Angular, ES6, webpack, Sass</p>
 									<a href="https://thinkgeek-clone.firebaseapp.com" className="special">Visit Page</a>
 								</div>
 							</div>
@@ -55,7 +55,7 @@ class App extends Component {
                 <a href="https://lukevandekieft.github.io/borf-quest" className="image"><img src={siteGoblin} alt="Gobline Quest Game Site" /></a>
                 <div className="content">
                   <h2 className="major">Goblin Quest - Rise of Borf</h2>
-                  <p>A text-based RPG where the hero embarks to save their long-lost love from goblin king Borf. Do you have what it takes to face him down?</p>
+                  <p>Embark upon a journey to save your long-lost love in this classic text-based RPG. Goblin King Borf is no joke and he's not getting nerfed anytime soon - do you have what it takes to bring him down!?</p>
                   <p>Built with: JavaScript, jQuery, Sass, HTML</p>
                   <a href="https://lukevandekieft.github.io/borf-quest" className="special">Visit Page</a>
                 </div>
@@ -66,8 +66,9 @@ class App extends Component {
 							<div className="inner">
                 <a href="https://travel-peru.firebaseapp.com" className="image"><img src={sitePeru} alt="Travel Peru Site" /></a>
                 <div className="content">
-                  <h2 className="major">And More...</h2>
-                  <p>Additional projects include a Peru travel page, React Tamagotchi, and coworking site layout.</p>
+                  <h2 className="major">...And More!</h2>
+                  <p>A Travel site, coworking layout, React Tamagotchi, and more await you on my Github.</p>
+                  <p> I've worked primarily with front-end technologies like React, Redux, Angular, ES6, TypeScript, Sass, Less, and Sketch. Other project tools include webpack, Git, Firebase, Jest, Karma/Jasmin, and some AWS. Next up I'll be diving into Node.js.</p>
                   <a href="https://github.com/lukevandekieft?tab=repositories" className="special">See Project List</a>
                 </div>
 							</div>
@@ -78,8 +79,8 @@ class App extends Component {
 				<section id="footer">
 					<div className="inner centered">
 						<h2 className="special">Currently available for hire</h2>
-            <p className="footerParagraph">Accountant turned programmer who loves logic puzzles such as board games, RPGs, and components that refuse to render. PNW native who travels when he can and spends his time reading, cooking, and gaming when he can't.</p>
-            <p className="footerParagraph">I'd love to hear from you! You can reach me at:</p>
+            <p className="footerParagraph">Accountant-turned-programmer who loves logic puzzles like board games, RPGs, and components that won't render. PNW native who travels when he can and spends his time reading, cooking, and gaming when he can't.</p>
+            <p className="footerParagraph">I'd love to hear from you! Reach me at:</p>
 
             <ul className="icons">
   						<li><a href="mailto:vandekie@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a></li>
