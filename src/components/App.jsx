@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import siteQuince from'../assets/images/half_blood_quince.png';
-import siteGeek from'../assets/images/thinkgeek_clone.png';
+import siteQuince from'../assets/images/quince.png';
+import siteGeek from'../assets/images/thinkgeek3.png';
 import sitePeru from'../assets/images/travel_peru.png';
 import siteCrestfallen from'../assets/images/crestfallen.png';
-import siteGoblin from'../assets/images/goblin_quest3.png';
-import siteGoblin2 from'../assets/images/borf_house.png';
+import siteGoblin from'../assets/images/borf_house.png';
 
 //styles
 import './App.scss';
@@ -53,7 +52,7 @@ class App extends Component {
 
 						<section id="three" className="wrapper spotlight style3">
 							<div className="inner">
-                <a href="https://lukevandekieft.github.io/borf-quest" className="image"><img src={siteGoblin2} alt="Gobline Quest Game Site" /></a>
+                <a href="https://lukevandekieft.github.io/borf-quest" className="image"><img src={siteGoblin} alt="Gobline Quest Game Site" /></a>
                 <div className="content">
                   <h2 className="major">Goblin Quest - Rise of Borf</h2>
                   <p>A text-based RPG where the hero embarks to save their long-lost love from goblin king Borf. Do you have what it takes to face him down?</p>
