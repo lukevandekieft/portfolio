@@ -6,8 +6,13 @@
 
 ## Project Description
 
-This is a portfolio of my web development projects. if you have any questions or suggestions let me know!
+This is a portfolio of my web development projects. if you have any questions, suggestions, or job leads let me know! If you just want to say hi that's just swell too.
 
+[<kbd>
+  <img src="https://github.com/lukevandekieft/portfolio/blob/master/src/assets/images/live-site.gif">
+</kbd>](https://lukevandekieft.github.io/borf-quest)
+
+_Don't just watch it here, visit!!_
 
 ## Setup/Installation Requirements
 
