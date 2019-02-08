@@ -11,7 +11,7 @@ This is a portfolio of my web development projects. if you have any questions or
 
 ## Setup/Installation Requirements
 
-Live site is currently unfinished.         
+Live site is at www.lukevandekieft.com         
 <br>
 <br>
 
@@ -32,11 +32,6 @@ To download & edit do the following:
       $ npm run start
 
 
-For further support:
-Create React App: (https://github.com/facebookincubator/create-react-app)
-Custom React Scripts: (https://www.npmjs.com/package/custom-react-scripts)
-
-
 ## Technologies Used
 
 * _React Library_
@@ -46,7 +41,7 @@ Custom React Scripts: (https://www.npmjs.com/package/custom-react-scripts)
 * _CSS_
 * _JSX_
 * _Webpack_
-* _'Solid State' and 'Directive' style templates from HTML5Up.net
+* _'Solid State' and 'Directive' style templates from HTML5Up.net_
 
 ## Support and contact details
 
