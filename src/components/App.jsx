@@ -64,12 +64,12 @@ class App extends Component {
 
             <section id="four" className="wrapper alt spotlight style5">
               <div className="inner">
-                <a href="https://github.com/lukevandekieft?tab=repositories" target="_blank" rel="noopener noreferrer" className="image"><img src={sitePeru} alt="Travel Peru Site" /></a>
+                <a href="https://github.com/lukevandekieft" target="_blank" rel="noopener noreferrer" className="image"><img src={sitePeru} alt="Travel Peru Site" /></a>
                 <div className="content">
                   <h2 className="major">...And More!</h2>
-                  <p>A Travel site, coworking layout, React Tamagotchi, and more await you on my Github.</p>
-                  <p> I've worked primarily with front-end technologies like React, Redux, Angular, ES6, TypeScript, Sass, Less, and Sketch. Other project tools include webpack, Git, Firebase, Jest, Karma/Jasmin, and some AWS. Next up I'll be diving into Node.js.</p>
-                  <a href="https://github.com/lukevandekieft?tab=repositories" target="_blank" rel="noopener noreferrer" className="special">See Project List</a>
+                  <p>See what else I've been working on at <a href="https://github.com/lukevandekieft" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+                  <p> I help build client projects with Serverless Guru using React, AWS, GraphQL, Angular, ES6, Sass, and more. Learning on the job is keeping me busy so my tutorial repositories are a good indicator of what I'm digging into at the moment!</p>
+                  <a href="https://github.com/lukevandekieft" target="_blank" rel="noopener noreferrer" className="special">See Project List</a>
                 </div>
               </div>
 						</section>
